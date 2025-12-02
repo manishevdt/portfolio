@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "Java", "image": "/icons/java.png" },
+        { "name": "Python", "image": "/icons/python.png" },
+        { "name": "JavaScript", "image": "/icons/javascript.png" }
+      ]
+    },
+    {
+      "category": "DataBases",
+      "items": [
+        { "name": "MySql", "image": "/icons/mysql.png" },
+        { "name": "MongoDb", "image": "/icons/mongodb.png" }
+      ]
+    },
+    {
+      "category": "Deployment Skills",
+      "items": [
+        { "name": "Aws", "image": "/icons/aws.jpg" },
+        { "name": "Docker", "image": "/icons/docker.png" },
+        { "name": "Kubernetes", "image": "/icons/k8s.png" }
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "items": [
+        { "name": "React", "image": "/icons/react.png" },
+        { "name": "Nextjs", "image": "/icons/nextjs.png" },
+        { "name": "SpringBoot", "image": "/icons/springboot.png" },
+        { "name": "Expressjs", "image": "/icons/express.png" }
+      ]
+    }
+  ]
+}

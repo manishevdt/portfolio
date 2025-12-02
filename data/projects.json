@@ -1,0 +1,50 @@
+{
+   "projects":[
+    {
+        "id": 1,
+        "name": "Resturant Website",
+        "status": "Completed",
+        "description": "I built this project while learning the React framework.",
+        "techstack": ["HTML", "CSS", "Javascript", "React"],
+        "image": "/projecticons/Resturant.png"
+    }, {
+        "id": 2,
+        "name":"BookStore",
+        "status": "Completed",
+        "description": "This is my first fullstack MERN project built while learning fullstack development.",
+        "techstack": ["HTML", "CSS", "TailwindCSS", "React", "Express.js", "MongoDB"],
+      "image": "/projecticons/Book-store.png"
+    },   {
+      "id": 3,
+      "name": "Chat Application",
+      "status": "Completed",
+      "description": "My second MERN project built while learning fullstack development using Cloudinary, JWT, MongoDB.",
+      "techstack": ["HTML", "CSS", "TailwindCSS", "Vite + React", "Express.js"],
+      "image": "/projecticons/chat-application.png"
+    },
+    {
+      "id": 4,
+      "name": "My Portfolio",
+      "status": "Ongoing",
+      "description": "A fullstack Next.js application with personal details and Nodemailer for contact.",
+      "techstack": ["HTML", "CSS", "JavaScript", "Next.js", "MongoDB"],
+      "image": "/projecticons/my-portfolio.png"
+    },
+    {
+      "id": 5,
+      "name": "Todo Application",
+      "status": "Completed",
+      "description": "A fullstack Java project built while learning Java fullstack development at Kodnest.",
+      "techstack": ["HTML", "CSS", "JavaScript", "React", "Redux Toolkit", "Spring Boot", "Java", "MySQL"],
+      "image": "/projecticons/Todolist.png"
+    },
+    {
+      "id": 6,
+      "name": "Resume Builder Application",
+      "status": "Ongoing",
+      "description": "A fullstack Java project including Razorpay, MongoDB, Cloudinary, JWT auth, password hashing.",
+      "techstack": ["HTML", "CSS", "React + Vite", "Redux Toolkit", "Java Spring Boot", "MongoDB"],
+      "image": "/projects/resume.png"
+    }
+   ] 
+}
