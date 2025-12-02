@@ -6,7 +6,7 @@ export default function AboutMe() {
         <h3 className="font-bold hover:underline"> My Acadmics</h3>
          <h2 className="text-blue-500 mt-3"> 1. Gradution in Computer Science And Engineering  from Shri shankraCharya Technical Campus at <span className="text-red-600"> August 2025 </span>
          with <span className="text-green-500"> 67.33%</span> and <span className="text-red-700">7.45 Cumulative Performance Index</span></h2>
-          <h2 className="text-blue-500 mt-3"> 2.. Completed Diploma  in Mechanical Engineering  from Rungta Engineering Collage at 2020 <span className="text-red-600"> August 2025 </span>
+          <h2 className="text-blue-500 mt-3"> 2.. Completed Diploma  in Mechanical Engineering  from Rungta Engineering Collage at 2020 
          with <span className="text-green-500"> 66.24%</span> and <span className="text-red-700">7.33 Cumulative Performance Index</span></h2>
       </div>
          <div className="mt-5">
