@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-between gap-35">
         
         {/* LEFT SECTION */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 gap-3">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
             MY NAME IS MANISH KUMAR RATHORE
           </h1>
