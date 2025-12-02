@@ -5,7 +5,7 @@ export default function Hero() {
    <section className="w-full min-h-screen bg-gradient-to-r from-[#FFB762] to-[#FF6A95] flex items-center justify-center px-4 md:px-10">
 
       
-      <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-between gap-35">
+      <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-between gap-12 md:gap-32">
         
         {/* LEFT SECTION */}
         <div className="w-full md:w-1/2 gap-3">
