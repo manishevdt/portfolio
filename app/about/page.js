@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <section className="min-h-screen p-6 md:ml-64 md:p-12 bg-gradient-to-br from-red-100 via-blue-100 to-green-200">
+        <section className="min-h-screen p-6 md:ml-64 md:p-12 bg-gradient-to-br from-white-100 via-pink-100 to-purple-200">
       <h1 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text animate-typing">ABOUTME</h1>
       <div className="mt-5">
         <h3 className="font-bold hover:underline"> My Acadmics</h3>
