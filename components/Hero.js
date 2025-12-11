@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-   <section className="w-full min-h-screen bg-gradient-to-r from-[#FFB762] to-[#FF6A95] flex items-center justify-center px-4 md:px-10">
+   <section className=" hero-bg w-full min-h-screen  flex items-center justify-center px-4 md:px-10">
 
       
       <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-between gap-12 md:gap-32">
         
-        {/* LEFT SECTION */}
+      
         <div className="w-full md:w-1/2 gap-12">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
+          <h1 className="text-fade text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
             MY NAME IS MANISH KUMAR RATHORE
           </h1>
 
@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* RIGHT IMAGE */}
+     
         <div className="w-full md:w-1/2 flex justify-center relative">
           <Image
             src="/MyImage/resumeimage-removebg-preview.png"

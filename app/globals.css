@@ -48,18 +48,19 @@ body {
   border-right: 3px solid currentColor;
 }
 
-@keyframes text-fade {
+@keyframes textfade {
   0% {
     opacity: 0;
     transform: translateY(10px);
-  } 20% {
- opacity: 1;
- transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
   }
   80% {
     opacity: 1;
-    
-  } 100%{
+  }
+  100% {
     opacity: 0;
     transform: translateY(-10px);
   }
@@ -81,4 +82,31 @@ body {
 
 .projectcard{
   animation: projectcard 1.5s infinite linear ;
+}
+
+
+.hero-bg {
+  background-image: url("/MyImage/background.jpg");
+  background-size: cover;     /* zoom effect removed */
+  background-position: center;
+  animation: floatBg 12s ease-in-out infinite alternate;
+}
+
+
+@keyframes floatBg {
+  0% { 
+    background-position: center center; 
+  }
+  25% { 
+    background-position: center 10%; 
+  }
+  50% { 
+    background-position: 10% center; 
+  }
+  75% { 
+    background-position: center 90%; 
+  }
+  100% { 
+    background-position: 90% center; 
+  }
 }
