@@ -9,7 +9,7 @@ export default function Hero() {
         
       
         <div className="w-full md:w-1/2 gap-12">
-          <h1 className="text-fade text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
+          <h1 className="text-fade text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text animate-typing">
             MY NAME IS MANISH KUMAR RATHORE
           </h1>
 
@@ -18,12 +18,13 @@ export default function Hero() {
           </p>
 
           <a href="/contact" target="_blank" rel="noopener noreferrer">
-  <button className="bg-black text-white px-6 py-3 mt-6">
-    Let’s talk with me
-  </button>
+<button className="bg-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:via-red-500 hover:to-blue-500 text-white px-6 py-3 mt-6 transition duration-500">
+  Let’s talk with me
+</button>
+
 </a>
 
-          <div className="pt-6 space-y-1 text-gray-700">
+          <div className="pt-6 space-y-1 text-green-900  ">
             <p>7697119440</p>
             <p>manishrathore2505@gmail.com</p>
           </div>

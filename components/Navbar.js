@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
    
       <div className="md:hidden fixed top-0 left-0 w-full bg-black text-white p-4 flex justify-between items-center z-50">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text text-fade">
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text ">
           My Portfolio
         </h1>
 
